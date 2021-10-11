@@ -13,5 +13,15 @@ namespace githubTEST1.Controllers
         {
             return View();
         }
+
+        static void MyMethod() => Console.WriteLine("TJAAA");
+        static void Main(string[] args)
+        {
+            MyMethod();
+            MyMethod();
+            MyMethod();
+            MyMethod();
+        }
+
     }
 }
